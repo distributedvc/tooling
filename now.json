@@ -1,0 +1,28 @@
+{
+  "name": "distributed-tooling",
+  "version": 2,
+  "regions": ["syd1"],
+  "builds": [
+    {
+      "src": "src/index.html",
+      "use": "@now/static"
+    },
+    {
+      "src": "src/**/*.ts",
+      "use": "@now/node"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "src/index.html" },
+    {
+      "src": "/colour/name/(.*)",
+      "methods": ["GET"],
+      "dest": "src/colour/name/index.ts?colour=$1"
+    },
+    {
+      "src": "/colour/random",
+      "methods": ["GET"],
+      "dest": "src/colour/random/index.ts"
+    }
+  ]
+}
