@@ -1,10 +1,10 @@
-# tooling
+# @distributed/tooling
 
-> Tooling for distributed apps.
+> Tooling for distributed applications.
 
 ## Colour
 
-Get the name of a given colour using `/colour/name/${colour}`.
+1. Get the name of a given colour using `/colour/name/${colour}`.
 
 ```bash
 curl https://tooling.distributed.vc/colour/name/ff7473
@@ -20,7 +20,7 @@ curl https://tooling.distributed.vc/colour/name/ff7473
 }
 ```
 
-Get a random colour and its name using `/colour/random`.
+2. Get a random colour and its name using `/colour/random`.
 
 ```bash
 curl https://tooling.distributed.vc/colour/random

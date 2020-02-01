@@ -17,12 +17,18 @@
     {
       "src": "/colour/name/(.*)",
       "methods": ["GET"],
-      "dest": "src/colour/name/index.ts?colour=$1"
+      "dest": "src/colour/name/index.ts?colour=$1",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
     },
     {
       "src": "/colour/random",
       "methods": ["GET"],
-      "dest": "src/colour/random/index.ts"
+      "dest": "src/colour/random/index.ts",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
     }
   ]
 }
