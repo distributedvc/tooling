@@ -1,4 +1,4 @@
-import cherangi from 'cherangi';
+import cherangi from '@distributed/cherangi';
 
 module.exports = async (req, res): Promise<void> => {
   const { colour } = req.query;

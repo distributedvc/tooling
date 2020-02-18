@@ -4,25 +4,28 @@
   "author": "Gomah <thomas@distributed.vc>",
   "repository": "git@github.com:distributedvc/tooling.git",
   "license": "MIT",
-  "resolutions": {
-    "cherangi/color-name-list": "4.14.0"
-  },
   "dependencies": {
-    "cherangi": "^1.1.2"
+    "@distributed/cherangi": "^1.1.3"
+  },
+  "scripts": {
+    "test": "jest"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.5",
     "@commitlint/config-conventional": "^8.3.4",
-    "@types/node": "^13.7.0",
-    "@typescript-eslint/eslint-plugin": "^2.19.0",
-    "@typescript-eslint/parser": "^2.19.0",
+    "@types/jest": "^25.1.2",
+    "@types/node": "^13.7.1",
+    "@typescript-eslint/eslint-plugin": "^2.20.0",
+    "@typescript-eslint/parser": "^2.20.0",
     "eslint": "^6.8.0",
     "eslint-config-airbnb-typescript": "^7.0.0",
     "eslint-config-prettier": "^6.10.0",
     "eslint-plugin-import": "^2.20.1",
     "eslint-plugin-prettier": "^3.1.2",
-    "husky": "^4.2.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
     "prettier": "^1.19.1",
+    "ts-jest": "^25.2.0",
     "typescript": "^3.7.5"
   }
 }
