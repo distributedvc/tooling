@@ -14,10 +14,9 @@ module.exports = {
     'plugin:prettier/recommended',
     'prettier/@typescript-eslint',
   ],
-  plugins: ['graphql', '@typescript-eslint'],
+  plugins: ['@typescript-eslint'],
   // add your custom rules here
   rules: {
-    '@typescript-eslint/camelcase': 0,
     'prettier/prettier': [
       'error',
       {
@@ -26,7 +25,6 @@ module.exports = {
         printWidth: 100,
       },
     ],
-    'max-classes-per-file': 0,
     'import/extensions': [
       'error',
       'always',
@@ -37,13 +35,6 @@ module.exports = {
       },
     ],
     'no-console': 0,
-    '@typescript-eslint/no-explicit-any': 0,
-    'import/prefer-default-export': 0,
-    'import/no-dynamic-require': 0,
-    'no-underscore-dangle': 0,
-    'no-param-reassign': 0,
-    'import/no-cycle': 0,
-    'class-methods-use-this': 0,
   },
   settings: {
     'import/resolver': {

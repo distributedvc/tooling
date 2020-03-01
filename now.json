@@ -23,6 +23,14 @@
       }
     },
     {
+      "src": "/colour/scale/(.*)",
+      "methods": ["GET"],
+      "dest": "src/colour/scale/index.ts?colour=$1",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
       "src": "/colour/random",
       "methods": ["GET"],
       "dest": "src/colour/random/index.ts",
