@@ -288,10 +288,10 @@
   dependencies:
     find-up "^4.0.0"
 
-"@distributed/cherangi@^1.1.5":
-  version "1.1.5"
-  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.5.tgz#44596f684fd1a61aca56fe1b20f14bfcf0c197ca"
-  integrity sha512-N5mobSW5n+Iv2jctnE5MBwqa/3UmlYDcT2Tu5bUy+OQepsJk2ECiNdu/A3a/0cSPnhYC+MwufPM36CMVXJywGQ==
+"@distributed/cherangi@^1.1.6":
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.6.tgz#f97c527c2670eb7caa7de6617600b878a2ebb5dd"
+  integrity sha512-0PzcWNOUTnF23yDUkxrKIpo2TcPGz9vKezP93Fecg7acCS+nn02xqVsVC80MYtcOUpYLj0ihsDq/MgTbDULRPQ==
   dependencies:
     color-name-list "5.13.0"
     taketalk "^1.0.0"
@@ -575,10 +575,10 @@
   resolved "https://registry.yarnpkg.com/@types/json-schema/-/json-schema-7.0.4.tgz#38fd73ddfd9b55abb1e1b2ed578cb55bd7b7d339"
   integrity sha512-8+KAKzEvSUdeo+kmqnKrqgeE+LcA0tjYWFY7RPProVYwnqDjukzO+3b6dLD56rYX5TdWejnEOLJYOIeh4CXKuA==
 
-"@types/node@^13.9.5":
-  version "13.9.5"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.5.tgz#59738bf30b31aea1faa2df7f4a5f55613750cf00"
-  integrity sha512-hkzMMD3xu6BrJpGVLeQ3htQQNAcOrJjX7WFmtK8zWQpz2UJf13LCFF2ALA7c9OVdvc2vQJeDdjfR35M0sBCxvw==
+"@types/node@^13.9.8":
+  version "13.9.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-13.9.8.tgz#09976420fc80a7a00bf40680c63815ed8c7616f4"
+  integrity sha512-1WgO8hsyHynlx7nhP1kr0OFzsgKz5XDQL+Lfc3b1Q3qIln/n8cKD4m09NJ0+P1Rq7Zgnc7N0+SsMnoD1rEb0kA==
 
 "@types/parse-json@^4.0.0":
   version "4.0.0"
