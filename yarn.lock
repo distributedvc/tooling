@@ -378,10 +378,10 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-9.1.1.tgz#d97ebc35d20eed6d8458361cbca5c7cb85d45184"
   integrity sha512-SXY8bCQ1qacJ8AUTUxjabY8G6OjSmMPLN9MBCzGaKOjpPNX6z8zbXTbk9oU3GHZLtcxweWLCi2n49IRS4iQlwg==
 
-"@distributed/cherangi@^1.1.8":
-  version "1.1.8"
-  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.8.tgz#8118a28bb27596a0db5cce60efc274caad082874"
-  integrity sha512-Bmr0EL8YVDIPtu4E7Q4WXXRjHToZXesxwkfVGVSqUairi6khqyTkUXM9Ybw0e54PVpqTQutm1euPvw50A/lqiQ==
+"@distributed/cherangi@^1.1.9":
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.9.tgz#4dae1cd58b91aceba00fc7998bd110434597b4b7"
+  integrity sha512-4L9A3DTZtuAKPYeomUzJ0cbOvHMh5pUPRjHtjpK/B9zMQoW1I+0Fst7+iAspU+DHTj7FC/9HfQtHLcwTlwTaKA==
   dependencies:
     color-name-list "5.31.0"
     taketalk "^1.0.0"
@@ -700,10 +700,10 @@
   resolved "https://registry.yarnpkg.com/@types/node/-/node-13.13.4.tgz#1581d6c16e3d4803eb079c87d4ac893ee7501c2c"
   integrity sha512-x26ur3dSXgv5AwKS0lNfbjpCakGIduWU1DU91Zz58ONRWrIKGunmZBNv4P7N+e27sJkiGDsw/3fT4AtsqQBrBA==
 
-"@types/node@^14.0.13":
-  version "14.0.13"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.13.tgz#ee1128e881b874c371374c1f72201893616417c9"
-  integrity sha512-rouEWBImiRaSJsVA+ITTFM6ZxibuAlTuNOCyxVbwreu6k6+ujs7DfnU9o+PShFhET78pMBl3eH+AGSI5eOTkPA==
+"@types/node@^14.0.23":
+  version "14.0.23"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-14.0.23.tgz#676fa0883450ed9da0bb24156213636290892806"
+  integrity sha512-Z4U8yDAl5TFkmYsZdFPdjeMa57NOvnaf1tljHzhouaPEp7LCj2JKkejpI1ODviIAQuW4CcQmxkQ77rnLsOOoKw==
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
