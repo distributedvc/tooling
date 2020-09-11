@@ -689,10 +689,10 @@
   dependencies:
     "@babel/types" "^7.3.0"
 
-"@types/chroma-js@^2.0.0":
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/@types/chroma-js/-/chroma-js-2.0.0.tgz#b0fc98c8625d963f14e8138e0a7961103303ab22"
-  integrity sha512-iomunXsXjDxhm2y1OeJt8NwmgC7RyNkPAOddlYVGsbGoX8+1jYt84SG4/tf6RWcwzROLx1kPXPE95by1s+ebIg==
+"@types/chroma-js@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@types/chroma-js/-/chroma-js-2.0.1.tgz#9dc55127dd25f9fd5bfc3ea7a790adc7b2d117e0"
+  integrity sha512-vVWMMgoJPxnekRV0nccamAUVJgucvUMd0KEFQRkqLJXWvTRgMI2f9gnnGHxiF8po3XUv7ALXzVhixFclnOfX6Q==
 
 "@types/color-name@^1.1.1":
   version "1.1.1"
