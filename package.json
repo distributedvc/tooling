@@ -5,7 +5,7 @@
   "repository": "git@github.com:distributedvc/tooling.git",
   "license": "MIT",
   "dependencies": {
-    "@distributed/cherangi": "^1.1.11",
+    "@distributed/cherangi": "^1.1.12",
     "chroma-js": "^2.1.0"
   },
   "scripts": {
