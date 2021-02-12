@@ -397,12 +397,12 @@
   resolved "https://registry.yarnpkg.com/@commitlint/types/-/types-11.0.0.tgz#719cf05fcc1abb6533610a2e0f5dd1e61eac14fe"
   integrity sha512-VoNqai1vR5anRF5Tuh/+SWDFk7xi7oMwHrHrbm1BprYXjB2RJsWLhUrStMssDxEl5lW/z3EUdg8RvH/IUBccSQ==
 
-"@distributed/cherangi@^1.1.12":
-  version "1.1.12"
-  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.12.tgz#5a4e0e3983e6fedc05497de34f703f92ebca0900"
-  integrity sha512-EBuXlhhp3XUh/Dv09246oRHYhofL0j8Krr2bfsT7FuShi77pG5A/vdjltraNwkHEjOiWCD/iuLY97rdoNlam5A==
+"@distributed/cherangi@^1.1.13":
+  version "1.1.13"
+  resolved "https://registry.yarnpkg.com/@distributed/cherangi/-/cherangi-1.1.13.tgz#40ed84232da43e3765feb15f533d90c87c6eec40"
+  integrity sha512-u2RFkbsAWYRmxldeKlw0XtOqtacELBjp6Nfjb9oJURYXmAdjJGcWBm/VV9mA+oK1gY2yNr5JxkcXrknls1cZDg==
   dependencies:
-    color-name-list "7.30.0"
+    color-name-list "7.31.0"
     taketalk "^1.0.0"
 
 "@eslint/eslintrc@^0.3.0":
@@ -1364,10 +1364,10 @@ color-convert@^2.0.1:
   dependencies:
     color-name "~1.1.4"
 
-color-name-list@7.30.0:
-  version "7.30.0"
-  resolved "https://registry.yarnpkg.com/color-name-list/-/color-name-list-7.30.0.tgz#c3791e73bcf4e684449db6f940654013a8c09cbd"
-  integrity sha512-JM2eYZTg6+/jFVBD15FxFKThd6EjG9Y8aqGErxurzhbYNm2wGgSKCduibVOZvQcjaZ9pIJyRPVh+5ac7AzKNug==
+color-name-list@7.31.0:
+  version "7.31.0"
+  resolved "https://registry.yarnpkg.com/color-name-list/-/color-name-list-7.31.0.tgz#4198960224105b31a535ca867ff40316811d08bf"
+  integrity sha512-llBfZBFOT61pyepLxr/TdkvZTEtq9TIxHRwLKEIYCZZZe06SaQPk6Ci9KGrPQ9VH5Y6B06Kpe0YDe+L9m/9c2w==
 
 color-name@1.1.3:
   version "1.1.3"
