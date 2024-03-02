@@ -1,0 +1,42 @@
+{
+  "name": "distributed-tooling",
+  "version": 2,
+  "regions": ["syd1"],
+  "builds": [
+    {
+      "src": "src/index.html",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "src/**/*.ts",
+      "use": "@vercel/node"
+    }
+  ],
+  "routes": [
+    { "src": "/", "dest": "src/index.html" },
+    {
+      "src": "/colour/name/(.*)",
+      "methods": ["GET"],
+      "dest": "src/colour/name/index.ts?colour=$1",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
+      "src": "/colour/scale/(.*)",
+      "methods": ["GET"],
+      "dest": "src/colour/scale/index.ts?colour=$1",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    },
+    {
+      "src": "/colour/random",
+      "methods": ["GET"],
+      "dest": "src/colour/random/index.ts",
+      "headers": {
+        "Access-Control-Allow-Origin": "*"
+      }
+    }
+  ]
+}

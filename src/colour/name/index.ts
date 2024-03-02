@@ -1,6 +1,7 @@
+import type { VercelRequest, VercelResponse } from '@vercel/node';
 import cherangi from '@distributed/cherangi';
 
-module.exports = async (req, res): Promise<void> => {
+module.exports = async (req: VercelRequest, res: VercelResponse): Promise<VercelResponse> => {
   const { colour } = req.query;
 
   if (!colour) {
